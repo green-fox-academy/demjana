@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding-left: 10%;
+  padding-top: 10px;
+  border: 2px solid;
+  height: 50px;
+  background-color: grey;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.class {
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+h2 {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 8px;
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+p {
+  margin-top: 8px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+label {
+  padding: 5px 0px;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+article{
+  border: 2px solid black;
+  margin-bottom: 20px;
+}

@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bmi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bmi_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bmi_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingHours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DefineBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefineBasicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FavouriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavouriteNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroduceYourself.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondsInADay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondsInADay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +39,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager" selected="Application.SecondsInADay">
+  <component name="RunManager" selected="Application.Cuboid">
     <configuration name="Bmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bmi" />
       <module name="day-4" />
@@ -60,8 +47,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefineBasicInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DefineBasicInfo" />
+    <configuration name="Cuboid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cuboid" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cuboid" />
         <item itemvalue="Application.SecondsInADay" />
         <item itemvalue="Application.HelloUser" />
         <item itemvalue="Application.Bmi" />
         <item itemvalue="Application.VariableMutation" />
-        <item itemvalue="Application.DefineBasicInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +105,7 @@
       <workItem from="1583397008759" duration="24157000" />
       <workItem from="1583439640913" duration="360000" />
       <workItem from="1583440080753" duration="6779000" />
-      <workItem from="1583450533523" duration="540000" />
+      <workItem from="1583450533523" duration="1917000" />
     </task>
     <servers />
   </component>
@@ -126,22 +113,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="716" height="161" key="GridCell.Tab.0.bottom" timestamp="1583447250437">
+    <state width="716" height="161" key="GridCell.Tab.0.bottom" timestamp="1583452461709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
-    <state width="716" height="161" key="GridCell.Tab.0.center" timestamp="1583447250437">
+    <state width="716" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583452461709" />
+    <state width="716" height="161" key="GridCell.Tab.0.center" timestamp="1583452461705">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
-    <state width="716" height="161" key="GridCell.Tab.0.left" timestamp="1583447250437">
+    <state width="716" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583452461705" />
+    <state width="716" height="161" key="GridCell.Tab.0.left" timestamp="1583452461705">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
-    <state width="716" height="161" key="GridCell.Tab.0.right" timestamp="1583447250437">
+    <state width="716" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583452461705" />
+    <state width="716" height="161" key="GridCell.Tab.0.right" timestamp="1583452461709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
+    <state width="716" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583452461709" />
     <state width="716" height="201" key="GridCell.Tab.1.bottom" timestamp="1583440003106">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

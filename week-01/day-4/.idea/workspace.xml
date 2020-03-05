@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="" />
+    <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bmi_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bmi_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefineBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefineBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FavouriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavouriteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroduceYourself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondsInADay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondsInADay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariableMutation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,7 +33,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YhZskdCQLV2JT0HgijrNvWGUxk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,8 +47,63 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RunManager" selected="Application.SecondsInADay">
+    <configuration name="Bmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bmi" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefineBasicInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DefineBasicInfo" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FavouriteNumber" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FavouriteNumber" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloUser" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecondsInADay" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VariableMutation" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SecondsInADay" />
+        <item itemvalue="Application.HelloUser" />
+        <item itemvalue="Application.Bmi" />
+        <item itemvalue="Application.VariableMutation" />
+        <item itemvalue="Application.DefineBasicInfo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,11 +115,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583396994790</updated>
-      <workItem from="1583397008759" duration="798000" />
+      <workItem from="1583397008759" duration="24157000" />
+      <workItem from="1583439640913" duration="360000" />
+      <workItem from="1583440080753" duration="6779000" />
+      <workItem from="1583450533523" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="716" height="161" key="GridCell.Tab.0.bottom" timestamp="1583447250437">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
+    <state width="716" height="161" key="GridCell.Tab.0.center" timestamp="1583447250437">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
+    <state width="716" height="161" key="GridCell.Tab.0.left" timestamp="1583447250437">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
+    <state width="716" height="161" key="GridCell.Tab.0.right" timestamp="1583447250437">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583447250437" />
+    <state width="716" height="201" key="GridCell.Tab.1.bottom" timestamp="1583440003106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
+    <state width="716" height="201" key="GridCell.Tab.1.center" timestamp="1583440003106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
+    <state width="716" height="201" key="GridCell.Tab.1.left" timestamp="1583440003106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
+    <state width="716" height="201" key="GridCell.Tab.1.right" timestamp="1583440003106">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="716" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1583412852512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583412852512" />
+    <state x="83" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1583450541034">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="83" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583450541034" />
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583431019345">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583431019345" />
   </component>
 </project>

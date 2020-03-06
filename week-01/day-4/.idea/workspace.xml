@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AnimalsAndLegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AverageOfInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneTwoALot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PartyIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrintBigger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/HelloUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/HelloUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MileToKmConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OddEven.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +48,16 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager" selected="Application.Cuboid">
-    <configuration name="Bmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bmi" />
+  <component name="RunManager" selected="Application.ConditionalVariableMutation">
+    <configuration name="AverageOfInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AverageOfInput" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cuboid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cuboid" />
+    <configuration name="ConditionalVariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConditionalVariableMutation" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,22 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloUser" />
+    <configuration name="OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneTwoALot" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondsInADay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondsInADay" />
+    <configuration name="PartyIndicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PartyIndicator" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VariableMutation" />
+    <configuration name="PrintBigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintBigger" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cuboid" />
-        <item itemvalue="Application.SecondsInADay" />
-        <item itemvalue="Application.HelloUser" />
-        <item itemvalue="Application.Bmi" />
-        <item itemvalue="Application.VariableMutation" />
+        <item itemvalue="Application.ConditionalVariableMutation" />
+        <item itemvalue="Application.PartyIndicator" />
+        <item itemvalue="Application.PrintBigger" />
+        <item itemvalue="Application.OneTwoALot" />
+        <item itemvalue="Application.AverageOfInput" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +114,8 @@
       <workItem from="1583397008759" duration="24157000" />
       <workItem from="1583439640913" duration="360000" />
       <workItem from="1583440080753" duration="6779000" />
-      <workItem from="1583450533523" duration="1917000" />
+      <workItem from="1583450533523" duration="2145000" />
+      <workItem from="1583487673137" duration="21302000" />
     </task>
     <servers />
   </component>
@@ -113,49 +123,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="716" height="161" key="GridCell.Tab.0.bottom" timestamp="1583452461709">
+    <state width="719" height="161" key="GridCell.Tab.0.bottom" timestamp="1583513849851">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583452461709" />
-    <state width="716" height="161" key="GridCell.Tab.0.center" timestamp="1583452461705">
+    <state width="719" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583513849851" />
+    <state width="719" height="161" key="GridCell.Tab.0.center" timestamp="1583513849851">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583452461705" />
-    <state width="716" height="161" key="GridCell.Tab.0.left" timestamp="1583452461705">
+    <state width="719" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583513849851" />
+    <state width="719" height="161" key="GridCell.Tab.0.left" timestamp="1583513849851">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583452461705" />
-    <state width="716" height="161" key="GridCell.Tab.0.right" timestamp="1583452461709">
+    <state width="719" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583513849851" />
+    <state width="719" height="161" key="GridCell.Tab.0.right" timestamp="1583513849851">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583452461709" />
-    <state width="716" height="201" key="GridCell.Tab.1.bottom" timestamp="1583440003106">
+    <state width="719" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583513849851" />
+    <state width="719" height="203" key="GridCell.Tab.1.bottom" timestamp="1583502354515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
-    <state width="716" height="201" key="GridCell.Tab.1.center" timestamp="1583440003106">
+    <state width="719" height="203" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583502354515" />
+    <state width="719" height="203" key="GridCell.Tab.1.center" timestamp="1583502354515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
-    <state width="716" height="201" key="GridCell.Tab.1.left" timestamp="1583440003106">
+    <state width="719" height="203" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583502354515" />
+    <state width="719" height="203" key="GridCell.Tab.1.left" timestamp="1583502354515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
-    <state width="716" height="201" key="GridCell.Tab.1.right" timestamp="1583440003106">
+    <state width="719" height="203" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583502354515" />
+    <state width="719" height="203" key="GridCell.Tab.1.right" timestamp="1583502354515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="716" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583440003106" />
+    <state width="719" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583502354515" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1583412852512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1583412852512" />
-    <state x="83" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1583450541034">
+    <state x="83" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1583488219811">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="83" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583450541034" />
-    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583431019345">
+    <state x="83" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1583488219811" />
+    <state x="198" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583506564281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583431019345" />
+    <state x="198" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1583506564281" />
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583504507861">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1583504507861" />
   </component>
 </project>

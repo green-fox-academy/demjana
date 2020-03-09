@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DrawPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Plan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/While.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
-    </list>
+    <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +106,7 @@
       <workItem from="1583487673137" duration="21846000" />
       <workItem from="1583522164334" duration="13857000" />
       <workItem from="1583604762192" duration="27962000" />
-      <workItem from="1583744620483" duration="4433000" />
+      <workItem from="1583744620483" duration="4581000" />
     </task>
     <servers />
   </component>
@@ -120,22 +114,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1583752231600">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1583757022902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583752231600" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1583752231600">
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583757022902" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1583757053881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583752231600" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1583752231600">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583757053881" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1583757053881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583752231600" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1583752231600">
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583757053881" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1583757053881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583752231600" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583757053881" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1583757053881">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583757053881" />
     <state width="719" height="203" key="GridCell.Tab.1.bottom" timestamp="1583514395437">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -164,10 +162,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="198" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1583506564281" />
-    <state x="91" y="0" key="new project wizard" timestamp="1583756901928">
+    <state x="91" y="0" key="new project wizard" timestamp="1583757039794">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583756901928" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583757039794" />
     <state x="46" y="154" key="run.anything.popup" timestamp="1583708321730">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

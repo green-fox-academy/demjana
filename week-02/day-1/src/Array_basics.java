@@ -14,7 +14,7 @@ public class Array_basics {
    tomb[tomb.length - 1] // mindig ez az utolsó elem
    //
    omb[db] // ez az utolsó általam elhelyezett elem
-   tomb[tomb.length - 1] // ez pedig a tömb utolsó eleme, ami kezdőérték
+   tomb[tomb.length + 1] // ez pedig a tömb utolsó eleme, ami kezdőérték
    //
 
 public class Tombfeltoltes {

@@ -1,19 +1,19 @@
-// Draw a green 10x10 square to the canvas' center.
-
 import javax.swing.*;
 
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class CenteredSquare {
-
+public class PositionSquare {
     public static void mainDraw(Graphics graphics) {
-        int size = 100;
-        graphics.setColor(new Color(0, 255, 0));
-        graphics.fillRect(WIDTH / 2 - size / 2, HEIGHT / 2 - size / 2, size, size);
-
-
+        for (int i=0; i < 3; i++) {
+            squareDrawer((int)(Math.random()*270),(int)(Math.random()*270),graphics);
+        }
+    }
+    private static void squareDrawer(int x, int y, Graphics graphics) {
+        int size = 50;
+        graphics.setColor(new Color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255)));
+        graphics.drawRect(x,y,size,size);
     }
 
     // Don't touch the code below
@@ -39,4 +39,3 @@ public class CenteredSquare {
         }
     }
 }
-

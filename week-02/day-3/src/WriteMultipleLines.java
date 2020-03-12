@@ -33,7 +33,7 @@ public class WriteMultipleLines {
             List<String> lines = Files.readAllLines(filePath);
             System.out.println((lines));
         } catch (Exception e) {
-            System.out.println("Uh-oh, could not read the file!");
+            System.out.println("I could not read the file!");
         }
     }
 }

@@ -15,7 +15,7 @@ public class WriteSingleLine {
         content.add("Akos Demjan");
 
         try {
-            Path filePath = Paths.get("assets/new-file.txt");
+            Path filePath = Paths.get("assets/my-file.txt");
             Files.write(filePath, content);
 
         } catch (Exception e) {

@@ -13,13 +13,13 @@ public class FileIOMain {
             writeFile();
         } catch (NoSuchFileException e) {
             System.out.println("No such file");
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (IOException e) {
             System.out.println("IoException");
-            e.printStackTrace();
+            //e.printStackTrace();
         } catch (Exception e) {
             System.out.println("Something went wrong");
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         System.out.println("Method finished");
     }

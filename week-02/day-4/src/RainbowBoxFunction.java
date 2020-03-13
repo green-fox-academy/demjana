@@ -1,20 +1,30 @@
 import javax.swing.*;
 
 import java.awt.*;
+import java.util.Scanner;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class RainbowBoxFunction {
 
 
+
     public static void mainDraw(Graphics graphics) {
+        rainDraw(graphics);
+    }
+
+    public static void rainDraw(Graphics graphics) {
+        Scanner scanner = new Scanner(System.in);
+        int times = scanner.nextInt();
+
         Color[] colorArray = {Color.red, Color.orange, Color.yellow, Color.green,
                 Color.blue, new Color(29, 0, 51), new Color(238, 130, 238)};
-        int times = 8;
+
         for (int i = 0; i < times; i++) {
             rainbow(320/times*(times-i),colorArray[(times-i)%7],graphics);
         }
     }
+
         private static void rainbow(int size, Color color, Graphics graphics){
             graphics.setColor(color);
             graphics.fillRect(WIDTH / 2 - size / 2, HEIGHT / 2 - size / 2, size, size);

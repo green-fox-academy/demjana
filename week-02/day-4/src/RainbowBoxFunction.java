@@ -14,6 +14,7 @@ public class RainbowBoxFunction {
     }
 
     public static void rainDraw(Graphics graphics) {
+        System.out.println("Enter a number:");
         Scanner scanner = new Scanner(System.in);
         int times = scanner.nextInt();
 

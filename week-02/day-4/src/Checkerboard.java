@@ -19,7 +19,8 @@ public class Checkerboard {
             }
         }
     }
-    private static void drawSquare( int x, int y, int size, Graphics graphics){
+
+    private static void drawSquare(int x, int y, int size, Graphics graphics) {
 
         graphics.setColor(new Color(0, 0, 0));
         graphics.fillRect(x, y, size, size);

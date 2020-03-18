@@ -4,18 +4,18 @@ public class Counter {
   int value;
   int defaultValue;
 
- public Counter() {
+  public Counter() {
     this.value = 0;
     this.defaultValue = 0;
   }
 
   public Counter(int value) {
-   this.value = value;
+    this.value = value;
     defaultValue = value;
   }
 
   public void add(int numberToAdd) {
-   this.value += numberToAdd;
+    this.value += numberToAdd;
   }
 
   public void add() {
@@ -27,11 +27,8 @@ public class Counter {
   }
 
   public void reset() {
-   this.value = defaultValue;
+    this.value = defaultValue;
   }
-
-
-
 
 
 }

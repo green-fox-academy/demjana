@@ -2,7 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e08d8c12-ba85-4354-8ec3-9e5e8cf92c3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DrawChessTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawDiagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParametricAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/AnimalsAndLegs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/AnimalsAndLegs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/Bmi_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/CodingHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/CodingHours.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/DataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/MultiplicationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day-4/OddEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-4/OddEven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalsAndLegs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalsAndLegs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AverageOfInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AverageOfInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bmi_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodingHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConditionalVariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConditionalVariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountFromTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountFromTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cuboid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cuboid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefineBasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefineBasicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawDiamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawPyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FavouriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavouriteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IWontCheatOnTheExams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IWontCheatOnTheExams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroduceYourself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroduceYourself.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MileToKmConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MileToKmConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneTwoALot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OneTwoALot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PartyIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PartyIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintBigger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintBigger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrintEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondsInADay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondsInADay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Swap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariableMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/While.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-1/parsing/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-1/parsing/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-1/parsing/src/AverageSpendingCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week-03/day-1/parsing/src/parsing/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week-03/day-1/parsing/src/parsing/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +84,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
-  <component name="RunManager" selected="Application.DrawDiamond">
-    <configuration name="Cuboid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cuboid" />
+  <component name="RunManager" selected="Application.ParametricAverage">
+    <configuration name="DrawChessTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawChessTable" />
+      <module name="day-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawDiagonal" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawPyramid" />
+    <configuration name="DrawSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawSquare" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,15 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Plan" />
+    <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Triangle" />
+    <configuration name="ParametricAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParametricAverage" />
       <module name="day-4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Triangle" />
-        <item itemvalue="Application.DrawPyramid" />
-        <item itemvalue="Application.Cuboid" />
-        <item itemvalue="Application.Plan" />
+        <item itemvalue="Application.ParametricAverage" />
+        <item itemvalue="Application.DrawChessTable" />
+        <item itemvalue="Application.GuessTheNumber" />
+        <item itemvalue="Application.DrawDiagonal" />
+        <item itemvalue="Application.DrawSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +167,7 @@
       <workItem from="1583744620483" duration="4581000" />
       <workItem from="1584112852829" duration="6737000" />
       <workItem from="1584129101433" duration="605000" />
+      <workItem from="1584532839532" duration="21809000" />
     </task>
     <servers />
   </component>
@@ -121,38 +179,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583757022902" />
-    <state width="1237" height="203" key="GridCell.Tab.0.bottom" timestamp="1584128916691">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1584568416813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.0.center" timestamp="1584128916691">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584568416813" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1584568416813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.0.left" timestamp="1584128916691">
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584568416813" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1584568416813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.0.right" timestamp="1584128916691">
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584568416813" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1584568416813">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1584128916691">
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584568416813" />
+    <state width="720" height="199" key="GridCell.Tab.1.bottom" timestamp="1584535648824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.1.center" timestamp="1584128916691">
+    <state width="720" height="199" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584535648824" />
+    <state width="720" height="199" key="GridCell.Tab.1.center" timestamp="1584535648824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.1.left" timestamp="1584128916691">
+    <state width="720" height="199" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584535648824" />
+    <state width="720" height="199" key="GridCell.Tab.1.left" timestamp="1584535648824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
-    <state width="1237" height="203" key="GridCell.Tab.1.right" timestamp="1584128916691">
+    <state width="720" height="199" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584535648824" />
+    <state width="720" height="199" key="GridCell.Tab.1.right" timestamp="1584535648824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="203" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584128916691" />
+    <state width="720" height="199" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584535648824" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1583412852512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -169,23 +227,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1583757039794" />
-    <state x="46" y="154" key="run.anything.popup" timestamp="1583708321730">
+    <state x="46" y="154" key="run.anything.popup" timestamp="1584568180317">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="46" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1583708321730" />
-    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584116284000">
+    <state x="46" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584568180317" />
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584533894707">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584116284000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/While.java</url>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="50" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584533894707" />
   </component>
 </project>

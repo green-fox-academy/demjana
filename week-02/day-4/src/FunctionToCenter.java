@@ -24,7 +24,6 @@ public class FunctionToCenter {
       lineDraw(x, y, graphics);
       y -= 20;
     }
-
   }
 
   private static void lineDraw(int x, int y, Graphics graphics) {

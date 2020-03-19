@@ -1,13 +1,15 @@
 import javax.swing.*;
 import java.awt.*;
+
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
+
 public class EverythingGoesToCenter {
   public static void mainDraw(Graphics graphics) {
     int distance = 20;
-    for (int i = 0; i <=HEIGHT / distance; i++) {
-      for (int j = 0; j <=WIDTH/distance; j++) {
-        if(i==0 || i==HEIGHT/ distance || j==0 || j==WIDTH/ distance)
-          lineDrawer(j*distance, i*distance, graphics);
+    for (int i = 0; i <= HEIGHT / distance; i++) {
+      for (int j = 0; j <= WIDTH / distance; j++) {
+        if (i == 0 || i == HEIGHT / distance || j == 0 || j == WIDTH / distance)
+          lineDrawer(j * distance, i * distance, graphics);
       }
     }
   }

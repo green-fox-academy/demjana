@@ -3,7 +3,6 @@ import javax.swing.*;
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
-
 // Create a function that takes 2 parameters:
 // An array of {x, y} points and graphics
 // and connects them with green lines.

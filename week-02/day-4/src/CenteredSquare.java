@@ -9,7 +9,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class CenteredSquare {
 
   public static void mainDraw(Graphics graphics) {
-    int size = 100;
+    int size = 10;
     graphics.setColor(new Color(0, 255, 0));
     graphics.fillRect(WIDTH / 2 - size / 2, HEIGHT / 2 - size / 2, size, size);
 

@@ -19,12 +19,20 @@ public class FleetOfThings {
     // 3. [x] Stand up
     // 4. [x] Eat lunch
 
-    List<Thing> things = new ArrayList<>();
-    things.add(new Thing("Get milk"));
-    things.add(new Thing("Remove the obstacles"));
-    things.add(new Thing("Stand up"));
-    things.add(new Thing("Eat lunch"));
+    Thing GetMilk = new Thing("Get milk");
 
+    Thing RemoveTheObstacles = new Thing("Remove the obstacles");
+
+    Thing StandUp = new Thing("Stand up");
+    StandUp.complete();
+
+    Thing EatLunch = new Thing("Eat lunch");
+    EatLunch.complete();
+
+    fleet.add(GetMilk);
+    fleet.add(RemoveTheObstacles);
+    fleet.add(StandUp);
+    fleet.add(EatLunch);
 
     System.out.println(fleet);
   }

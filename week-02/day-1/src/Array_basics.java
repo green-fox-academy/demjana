@@ -1,11 +1,11 @@
 public class Array_basics {
-    public static void main(String[] args) {
-        int[] myList = {1, 2, 3, 6};
-        // Print all the array elements
-        for (int i = 0; i < myList.length; i++) {
-            System.out.println(myList[i] + " ");
-        }
+  public static void main(String[] args) {
+    int[] myList = {1, 2, 3, 6};
+    // Print all the array elements
+    for (int i = 0; i < myList.length; i++) {
+      System.out.println(myList[i] + " ");
     }
+  }
 }
 
    /*int[] tomb = new int[10];

@@ -1,4 +1,4 @@
-package Cloneable;
+package cloneable;
 
 public class Mentor extends Person {
   String level;

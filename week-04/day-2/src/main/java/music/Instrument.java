@@ -1,4 +1,7 @@
 package main.java.music;
 
-public class Instrument {
+public abstract class Instrument {
+  protected String name;
+
+  public abstract void play();
 }

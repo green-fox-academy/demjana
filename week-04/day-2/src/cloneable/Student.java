@@ -1,4 +1,4 @@
-package Cloneable;
+package cloneable;
 
 public class Student extends Person implements Cloneable {
   String previousOrganization;

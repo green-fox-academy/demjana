@@ -1,4 +1,4 @@
-package Cloneable;
+package cloneable;
 
 public class Sponsor extends Person {
   String company;

@@ -1,6 +1,7 @@
 package flyable;
 
-public class Vehicle {
-
-
+public abstract class Vehicle {
+  protected int numberOfTiers;
+  protected boolean isItElectric;
+  protected int numberOfSeats;
 }

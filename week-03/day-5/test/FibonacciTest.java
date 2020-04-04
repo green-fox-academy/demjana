@@ -1,7 +1,6 @@
-package fibonacci;
-
 import static org.junit.Assert.assertEquals;
 
+import fibonacci.Fibonacci;
 import org.junit.Test;
 
 public class FibonacciTest {

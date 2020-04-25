@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bank of Simba</title>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Balance</th>
+        <th>Type</th>
+        <th>Status</th>
+        <th>Personality</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="account, stat : ${allaccounts}" th:object="${account}">
+        <td th:text="${stat.index}">Id</td>
+        <td th:text="*{name}">Name</td>
+        <td th:text="*{balance}">Balance</td>
+        <td th:text="*{animalType}">Type</td>
+        <td th:text="*{king} ? 'King' : 'Citizen'"
+            th:style="*{king} ? 'font-weight: bold; letter-spacing: 0.3em; color:gold;'">Status
+        </td>
+        <td th:text="*{personality}=='good' ? 'Good One' : 'Bad Guy'">Personality</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<h2>Add a new account</h2>
+<form action="/add" method="post" th:object="${accountTemplate}">
+    <tr>
+        <td><input type="text" placeholder="Name:" th:field="*{name}"></td>
+        <td><input type="number" placeholder="Balance:" th:field="*{balance}"></td>
+        <td><input type="text" placeholder="Type:" th:field="*{animalType}"></td>
+        <td><select th:field="*{king}">
+            <option th:value="true" th:text="King"></option>
+            <option th:value="false" th:text="Citizen"></option>
+        </select></td>
+        <td><select th:field="*{personality}">
+            <option th:value="'good'" th:text="'Good One'"></option>
+            <option th:value="'bad'" th:text="'Bad Guy'"></option>
+        </select></td>
+        <button type="submit">Add new Account</button>
+        <td th:text="'All accounts: ' + ${allaccounts.size()}"></td>
+</form><br>
+<h2>Raise the balance manually</h2>
+<form action="/raise" method="post">
+    <label>Raise balance of:</label>
+    <input type="text" name="selectedAccountName" required autofocus>
+    <button type="submit">Raise</button>
+</form><br>
+<h2>Raise the balance</h2>
+<form action="/raise" method="post">
+    <label for="names">Choose an account owner:</label>
+    <select id="names" name="selectedAccountName">
+        <option th:each="account : ${allaccounts}" th:value="${account.name}"
+                th:text="${account.name}"></option>
+    </select><br>
+    <button type="submit">Raise</button>
+</form>
+</body>
+</html>

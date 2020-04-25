@@ -1,0 +1,30 @@
+body, html {
+    font-family: 'Manrope', sans-serif;
+}
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+td, th {
+    padding: 5px;
+}
+th{
+    background-color: #1D2126;
+    color : #949AA1;
+    border: 1px solid black;
+    text-align: left;
+    font-weight: bold;
+}
+td{
+    color: #666A85;
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: darkgrey;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+td:first-child {
+    font-weight: bold
+}

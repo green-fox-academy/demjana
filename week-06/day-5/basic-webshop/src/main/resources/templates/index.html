@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Akos Demjan">
+    <meta name="keywords" content="html, login, form, css, greenfox">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Basic Webshop</title>
+</head>
+<body>
+<header>
+    <span><a href="My Shop">My Shop</a></span>
+    <span><a href="/more-filters">More >></a></span>
+</header>
+<main>
+    <div class="option-bar">
+        <a href="only-available">only available</a>
+        <a href="cheapest-first">cheapest first</a>
+        <a href="contains-nike">contains nike</a>
+        <a href="average-stock">average stock</a>
+        <a href="most-expensive">most expensive available</a>
+    </div>
+    <form action="/search" method="post">
+        <label for="searchInput">Search for:</label>
+        <div class="search-bar">
+            <input type="text" id="searchInput" name="searchInput" placeholder="...something like Nike">
+            <input type="submit" value="Search">
+        </div>
+    </form>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity of stock</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item : ${items}">
+            <td th:text="${item.getName()}"></td>
+            <td th:text="${item.getDescription()}"></td>
+            <td th:text="${item.getPrice()} + ' ' + ${item.getCurrency()}"></td>
+            <td th:text="${item.getQuantity()}"></td>
+        </tr>
+        </tbody>
+    </table>
+</main>
+</body>
+</html>

@@ -63,7 +63,7 @@ public class WebShopService {
     return listOfShopItems.stream().filter(item -> item.getType().equals(type)).collect(Collectors.toList());
   }
 
-  public List<ShopItem> getItemsByPrice(String searchMode, int number) {
+  public List<ShopItem> getItemsByPrice(String searchMode, float number) {
     switch (searchMode) {
       case "Above":
         return listOfShopItems.stream().filter(item -> item.getPrice() > Float.valueOf(number)).collect(Collectors.toList());

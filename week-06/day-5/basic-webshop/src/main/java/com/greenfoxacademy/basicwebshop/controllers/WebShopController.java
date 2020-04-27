@@ -82,7 +82,7 @@ public class WebShopController {
 
   @PostMapping(path = "/search-by-price")
   public String searchByPrice(@RequestParam String searchMode,
-                              @RequestParam(defaultValue = "0") Integer number,
+                              @RequestParam(defaultValue = "0") float number,
                               Model model) {
     model.addAttribute("items", webShopService.getItemsByPrice(searchMode, number));
     return "morefilters";

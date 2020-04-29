@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Todo</title>
+    <link rel="icon" href=
+            "https://pngimage.net/wp-content/uploads/2018/06/leaf-png-icon-6.png"
+          type="image/x-icon">
+</head>
+<body>
+<h1>Details of Todo</h1>
+<ul>
+    <li th:text="|ID: ${selectedTodo.id}|"></li>
+    <li th:text="|Descripton: ${selectedTodo.title}|"></li>
+    <li th:text="|Urgent: ${selectedTodo.isUrgent}|"></li>
+    <li th:text="|Done: ${selectedTodo.isDone}|"></li>
+    <li th:text="|Date of Creation: ${selectedTodo.dateOfCreation}|"></li>
+</ul>
+<a th:href="@{'/list'}">Cancel</a>
+</body>
+</html>

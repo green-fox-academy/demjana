@@ -11,10 +11,13 @@
 <h1>Details of Todo</h1>
 <ul>
     <li th:text="|ID: ${selectedTodo.id}|"></li>
-    <li th:text="|Descripton: ${selectedTodo.title}|"></li>
-    <li th:text="|Urgent: ${selectedTodo.isUrgent}|"></li>
-    <li th:text="|Done: ${selectedTodo.isDone}|"></li>
+    <li th:text="|Title: ${selectedTodo.title}|"></li>
+    <li th:text="|Content: ${selectedTodo.content}|"></li>
+    <li th:text="|Description: ${selectedTodo.description}|"></li>
+    <li th:text="|Urgent: ${selectedTodo.urgent}|"></li>
+    <li th:text="|Done: ${selectedTodo.done}|"></li>
     <li th:text="|Date of Creation: ${selectedTodo.dateOfCreation}|"></li>
+    <li th:text="|Due Date: ${selectedTodo.dueDate}|"></li>
 </ul>
 <a th:href="@{'/list'}">Cancel</a>
 </body>

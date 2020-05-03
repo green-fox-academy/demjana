@@ -2,6 +2,7 @@ package com.greenfoxacademy.connectionwithmysql.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -18,7 +19,7 @@ public class Assignee {
   private String name;
   private String email;
 
-  @OneToMany(fetch = FetchType.LAZY, mappedBy = "assignee")
+  @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL ,mappedBy = "assignee")
   private List<Todo> todo;
 
   public Assignee() {

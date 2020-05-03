@@ -53,8 +53,7 @@
         <td th:text="*{dateOfCreation}" th:style="|border: solid black 1px|"></td>
         <td th:text="*{dueDate}" th:style="|border: solid black 1px|"></td>
 
-        <td th:style="|border: solid black 1px|" th:if="${todo.assignee} != null" th:text="*{assignee.name}"></td>
-        <td th:style="|border: solid black 1px|" th:if="${todo.assignee} == null" th:text="|No Assignee selected yet|"></td>
+        <td th:text="${todo.assignee} != null ? ${todo.assignee.name} : 'n/a'" th:style="|border: solid black 1px|"></td>
 
         <td><a th:href="@{|/${todo.id}/delete|}" th:style="|border: solid black 1px|">Delete</a></td>
         <td><a th:href="@{|/${todo.id}/edit|}" th:style="|border: solid black 1px|">Edit</a></td>

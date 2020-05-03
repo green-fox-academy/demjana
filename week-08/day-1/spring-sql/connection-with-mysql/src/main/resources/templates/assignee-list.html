@@ -30,8 +30,7 @@
 
         <td th:text="*{email}" th:style="|border: solid black 1px|"></td>
 
-        <!--Bug: No return back todo-list.html after delete -->
-       <!--<td><a th:href="@{|/${assignee.id}/delete-assignee|}" th:style="|border: solid black 1px|">Delete</a></td>-->
+       <td><a th:href="@{|/${assignee.id}/delete-assignee|}" th:style="|border: solid black 1px|">Delete</a></td>
 
         <td><a th:href="@{|/${assignee.id}/edit-assignee|}" th:style="|border: solid black 1px|">Edit</a></td>
     </tr>

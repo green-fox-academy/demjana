@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Trending post</title>
 </head>
 <body>
+<header>
+    <a th:href="@{'/list/1'}">Trending posts</a>
+    <a th:href="@{'/submit'}">Submit new post</a></header>
+<main>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>Score</th>
+                <th>| + |</th>
+                <th>| - |</th>
+                <th>Title</th>
+                <th>Posted on</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr  th:each="post : ${posts}" th:object="${post}" th:style="|text-align: center;|">
+                <td th:text="*{counter}"></td>
+                <td><a th:href="@{|/+/${post.id}|}">+</a></td>
+                <td><a th:href="@{|/-/${post.id}|}">-</a></td>
+                <td><a th:href="@{${post.url}}"><span th:text="*{description}"></span></a></td>
+                <td th:text="${#dates.format(post.dateOfCreation, 'dd-MM-yyyy HH:mm')}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 
+</main>
 </body>
 </html>

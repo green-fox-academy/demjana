@@ -1,7 +1,6 @@
 package com.greenfoxacademy.basicwebshop.service;
 
 import com.greenfoxacademy.basicwebshop.models.ShopItem;
-import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -55,7 +54,8 @@ public class WebShopService {
 
   public List<ShopItem> getSearchedItem(String searchInput) {
     return listOfShopItems.stream()
-        .filter(item -> item.getName().toLowerCase().contains(searchInput.toLowerCase()) || item.getDescription().toLowerCase().contains(searchInput.toLowerCase()))
+        .filter(item -> item.getName().toLowerCase().contains(searchInput.toLowerCase()) ||
+                 item.getDescription().toLowerCase().contains(searchInput.toLowerCase()))
         .collect(Collectors.toList());
   }
 

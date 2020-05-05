@@ -45,7 +45,9 @@
             <option th:value="'good'" th:text="'Good One'"></option>
             <option th:value="'bad'" th:text="'Bad Guy'"></option>
         </select></td>
+        <br><br>
         <button type="submit">Add new Account</button>
+        <br><br>
         <td th:text="'All accounts: ' + ${allaccounts.size()}"></td>
 </form><br>
 <h2>Raise the balance manually</h2>
@@ -60,7 +62,7 @@
     <select id="names" name="selectedAccountName">
         <option th:each="account : ${allaccounts}" th:value="${account.name}"
                 th:text="${account.name}"></option>
-    </select><br>
+    </select>
     <button type="submit">Raise</button>
 </form>
 </body>

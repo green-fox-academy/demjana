@@ -6,8 +6,10 @@
 </head>
 <body>
 <header>
-    <a th:href="@{'/list/1'}">Trending posts</a>
-    <a th:href="@{'/submit'}">Submit new post</a></header>
+    <a th:href="@{'/logout'}">Logout</a>
+    <a th:href="@{'/page'}">Trending posts</a>
+    <a th:href="@{'/submit'}">Submit new post</a>
+</header>
 <main>
     <div>
         <table>
@@ -18,20 +20,24 @@
                 <th>| - |</th>
                 <th>Title</th>
                 <th>Posted on</th>
+                <th>Posted by</th>
             </tr>
             </thead>
             <tbody>
             <tr  th:each="post : ${posts}" th:object="${post}" th:style="|text-align: center;|">
                 <td th:text="*{counter}"></td>
-                <td><a th:href="@{|/+/${post.id}|}">+</a></td>
-                <td><a th:href="@{|/-/${post.id}|}">-</a></td>
+                <td><a th:href="@{|/+/${post.id}|}">| + |</a></td>
+                <td><a th:href="@{|/-/${post.id}|}">| - |</a></td>
                 <td><a th:href="@{${post.url}}"><span th:text="*{description}"></span></a></td>
                 <td th:text="${#dates.format(post.dateOfCreation, 'dd-MM-yyyy HH:mm')}"></td>
+                <td th:text="*{user} == null ? 'Anonymus' : *{user.username}"></td>
             </tr>
             </tbody>
         </table>
     </div>
-
+    <div class="pagination">
+        <a th:each="pageNumber : ${pageNumbers}" th:href="@{|/page/${pageNumber}|}" th:text="${pageNumber}"></a>
+    </div>
 </main>
 </body>
 </html>

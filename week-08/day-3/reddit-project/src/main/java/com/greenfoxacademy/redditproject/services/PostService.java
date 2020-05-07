@@ -7,10 +7,24 @@ public interface PostService {
 
   List<Post> getAllPostsFromDatabaseOrderByCounterDesc();
 
+  void addNewPostToDataBase(Post post);
+
+  void updatePostCounterField(String action, long id);
+
   void increaseCounterField(long id);
 
   void decreaseCounterField(long id);
 
-  public void addNewPostToDataBase(Post post);
+  List<Post> getPostsForHomePage();
+
+  List<Post> getPostsWithPageNumber(Integer pageNumber);
+
+  List<Integer> getHowManyPageDoWeNeed();
+
+
+
+
+
+
 
 }

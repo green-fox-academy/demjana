@@ -21,37 +21,37 @@ public class MainController {
     this.userService = userService;
   }
 
-  @GetMapping(value = "/page")
-  public String getHomePage(Model model) {
-    model.addAttribute("posts", postService.getAllPostsFromDatabaseOrderByCounterDesc());
+  @GetMapping(value = {"", "/", "page"})
+  public String getDefaultHomePage(Model model) {
+    model.addAttribute("posts", postService.getPostsForHomePage());
+    model.addAttribute("pageNumbers",postService.getHowManyPageDoWeNeed());
+    return "home-page";
+  }
+
+  @GetMapping(value = "/page/{pageNumber}")
+  public String getHomepage(Model model,@PathVariable (required = false) Integer pageNumber){
+    model.addAttribute("posts", postService.getPostsWithPageNumber(pageNumber));
+    model.addAttribute("pageNumbers",postService.getHowManyPageDoWeNeed());
     return "home-page";
   }
 
   @GetMapping(value = "/{action}/{id}")
-  public String getScore(@PathVariable String action, @PathVariable long id){
-    switch (action){
-      case "+":
-        postService.increaseCounterField(id);
-        break;
-      case "-":
-        postService.decreaseCounterField(id);
-        break;
-    }
+  public String getScore(@PathVariable String action, @PathVariable long id) {
+    postService.updatePostCounterField(action, id);
     return "redirect:/page";
   }
 
   @GetMapping("/submit")
-  public String goSubmitPage(Model model){
+  public String goSubmitPage(Model model) {
     model.addAttribute("newPost", new Post());
     return "submit-new-post";
   }
 
   @PostMapping(value = "submit")
-  public String submitNewPost(@ModelAttribute Post newPost){
+  public String submitNewPost(@ModelAttribute Post newPost) {
     postService.addNewPostToDataBase(newPost);
     return "redirect:/page";
   }
-
 
 
 }

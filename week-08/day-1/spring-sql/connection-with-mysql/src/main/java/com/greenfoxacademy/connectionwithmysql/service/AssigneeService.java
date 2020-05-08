@@ -19,7 +19,7 @@ public class AssigneeService {
     return assigneeRepository.findAll();
   }
 
-  public void addNewAssignee(Assignee assignee) {
+  public void saveAssignee(Assignee assignee) {
     assigneeRepository.save(assignee);
   }
 
@@ -37,9 +37,5 @@ public class AssigneeService {
       assignee = selectedAssignee.get();
     }
     return assignee;
-  }
-
-  public void updateAssignee(Assignee assignee) {
-    assigneeRepository.save(assignee);
   }
 }

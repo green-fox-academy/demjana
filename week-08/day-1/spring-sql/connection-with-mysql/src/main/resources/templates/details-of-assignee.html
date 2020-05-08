@@ -2,13 +2,16 @@
 <html lang="en" html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap"
+          rel="stylesheet">
     <title>Edit Todo</title>
     <link rel="icon" href=
             "https://pngimage.net/wp-content/uploads/2018/06/leaf-png-icon-6.png"
           type="image/x-icon">
 </head>
 <body>
-<h1>Assignee's data and todos:</h1>
+<h1>Data and todos:</h1>
 <ul>
     <li th:text="|ID: ${selectedAssignee.id}|"></li>
     <li th:text="|Name: ${selectedAssignee.name}|"></li>
@@ -18,6 +21,6 @@
     <li th:text="|Todos: ${todo.title}|"></li>
     <li th:text="|Due Date: ${todo.dueDate}|"></li>
 </ul>
-<a th:href="@{'/assignee'}">Cancel</a>
+<a th:href="@{'/assignee'}">Go back to Assignees</a>
 </body>
 </html>

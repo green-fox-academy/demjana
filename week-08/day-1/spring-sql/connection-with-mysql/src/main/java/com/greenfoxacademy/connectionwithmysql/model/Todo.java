@@ -8,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
@@ -21,6 +23,7 @@ public class Todo {
   private String description = "n/a";
   public boolean urgent = false;
   public boolean done = false;
+  @Temporal(value = TemporalType.TIMESTAMP)
   private Date dateOfCreation = new Date();
   @DateTimeFormat(pattern = "yyyy-MM-dd")
   private Date dueDate;

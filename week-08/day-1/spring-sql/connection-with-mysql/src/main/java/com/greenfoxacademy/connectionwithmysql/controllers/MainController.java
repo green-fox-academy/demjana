@@ -25,7 +25,7 @@ public class MainController {
   }
 
   @GetMapping(value = {"", "/", "/list"})
-  public String list(Model model, @RequestParam(required = false) Boolean isActive) {
+  public String listTodo(Model model, @RequestParam(required = false) Boolean isActive) {
     if (isActive == null) {
       model.addAttribute("todos", todoService.findAll());
     } else {
@@ -79,6 +79,13 @@ public class MainController {
     return "todo-list";
   }
 
+  @GetMapping(path = "/search-by-date")
+  public String searchByDate(Model model, String date, String searchButton, String when) {
+    model.addAttribute("date", date);
+    model.addAttribute("todos", todoService.searchByDate(date, searchButton, when));
+    return "todo-list";
+  }
+
   @GetMapping(value = "/assignee")
   public String returnAllAssignee(Model model) {
     model.addAttribute("assignees", assigneeService.findAll());
@@ -93,7 +100,7 @@ public class MainController {
 
   @PostMapping(value = "/add-assignee")
   public String addNewAssignee(@ModelAttribute Assignee assignee) {
-    assigneeService.addNewAssignee(assignee);
+    assigneeService.saveAssignee(assignee);
     return "redirect:/assignee";
   }
 
@@ -111,7 +118,7 @@ public class MainController {
 
   @PostMapping(value = "/edit-assignee/{id}")
   public String editAssignee(@ModelAttribute Assignee editedAssignee) {
-    assigneeService.updateAssignee(editedAssignee);
+    assigneeService.saveAssignee(editedAssignee);
     return "redirect:/assignee";
   }
 
